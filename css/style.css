@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+/* start Header */
+header .container {
+    color: #AAA;
+    padding: 20px;
+    border-bottom: 1px solid #999;
+    font-size: 25px;
+}
+header .container h3{
+    font-size: 1.17em;
+}
+/* End Header */
+
+/* start section */
+.item-border{
+    border-bottom: 1px solid #999;
+}
+.item h2{
+    font-size: 1.5em;
+    margin: 1.4em 0;
+}
+.p-input p{
+    color: #333;
+}
+.item input{
+    border-radius: 5px;
+    border: 1px solid #DDD;
+    padding: 5px;
+    font-size: 15px;
+    max-height: 2em;
+}
+.item input:hover {
+    box-shadow: 0px 0px 22px -7px #888;
+}
+.btn-color-blue{
+    background-color: #1167c4;
+    color: white;
+    border: 1px solid #1167c4; 
+}
+.btn-color-blue:hover{
+    background-color: #0a3f77;
+    border: 1px solid #0a3f77;
+    box-shadow: 2px 5px 3px 0px #888;
+}
+.btn-properties{
+    padding: 8px 15px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.bookmark-list h2 {
+    width: 30%;
+    color: #333;
+    font-size: 1.5rem;
+}
+.bookmark-list{
+    margin: 10px 0;
+    padding: 20px;
+}
+.btn-color-red{
+    background-color: #910004;
+    color: white;
+    border: 1px solid #910004;
+}
+.btn-color-red:hover{
+    background-color: #510d0e;
+    border: 1px solid #510d0e;
+    box-shadow: 2px 5px 3px 0px #888;
+}
+.bookmark-list a:hover{
+    color: #fff;
+}
+.bg-color{
+    background-image: linear-gradient(rgb(85, 165, 165),rgb(168, 121, 152));
+}
+.bg-color-gradient{
+    background-image: linear-gradient(rgb(85, 165, 165),rgb(168, 121, 152));
+}
+/* End section */
+
+/* start Footer */
+footer p{
+    color: #AAA;
+    font-size: 15px;
+}
+footer .container {
+    padding: 20px;
+    border-top: 1px solid #999;
+    margin: 15px auto;
+}
+/* End footer */
+
+/* error message */
+.required-input{
+    background-color: #ffb2b2;
+    color: #6d0000;
+    border: 1px solid #6d0000;
+    padding: 2px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+/* end error message */
